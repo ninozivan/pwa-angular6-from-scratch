@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
+
+# Informations
+1. Project initially created by following the steps from video https://www.youtube.com/watch?v=othhfZ0mGjU;
+
+## Steps
+1. Created new angular project (ng new 'name_of_project')
+2. Added angular pwa (ng add @angular/pwa)
+3. Added 'http-server' package globally
+4. Create 'dist' folder with production version of the application (ng build --prod)
+5. Once the 'dist' folder is created, navigate to the 'dist/name_of_project', and start server (http-server -o)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
